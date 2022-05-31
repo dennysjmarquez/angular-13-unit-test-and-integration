@@ -19,7 +19,7 @@ Angular 13
   <br/><br/>
   `expect(resp).not.toBeTruthy()`
   <br/><br/>
-  También se muestra el Test de Funciones dentro de una class, probando el return de la misma, Pruebas con números usando toBe,
+  También muestro el cómo hacer un test de funciones que están dentro de una class, probando el return de la misma, Pruebas con números usando toBe,
   string uso de toContain "expect(typeof resp).toBe('string')" familiarización con la evaluación de expect,
   siclos de vida del describe de [Jasmine](https://jasmine.github.io/api/3.10/global), tales como beforeAll, beforeEach,
   afterAll, afterEach y en que caso usar cada uno de ellos
