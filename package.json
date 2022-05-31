@@ -6,7 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "comment1": "/* ng test --code-coverage crean la carpeta coverage con un informe html que demuestra lo que está probando",
+    "comment2": "si hay algo que se escapó, comente la prueba 'Debe de retornar 0 hp si recibe 100 golpes o más'",
+    "comment3": "de class.spec.ts y claramente lo indica con un 80% de 100% esto es una maravilla */",
+    "test-coverage": "ng test --code-coverage"
   },
   "private": true,
   "dependencies": {
@@ -34,6 +38,8 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "prettier": "^2.5.1",
+    "tslint": "^6.1.3",
     "typescript": "~4.5.2"
   }
 }
