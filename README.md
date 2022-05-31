@@ -3,7 +3,7 @@
 Angular 13
 ### Las pruebas están separadas en 4 categorías:
 
-* **Básicas** -
+* **Básicas**
 <br/><br/>
   En estas pruebas verán la comprobación de Arrays, La comprobación de los booleans y las diferentes formas de hacer esto
   <br/><br/>
@@ -17,7 +17,8 @@ Angular 13
   También muestro el Test de Funciones de una class, probando el return de la misma, Pruebas con números usando toBe, string uso de toContain "expect(typeof resp).toBe('string')" familiarización con la evaluación de expect, 
 siclos de vida del describe de [Jasmine](https://jasmine.github.io/api/3.10/global), tales como beforeAll, beforeEach, afterAll, afterEach y en que caso usar cada uno de ellos
   <br/><br/>
-* **Intermedias** -
+
+* **Intermedias**
   <br/><br/>
 Esta sección trabaja con pruebas un poco más complejas y reales:
 
@@ -34,7 +35,8 @@ Se hacen comprobaciones simples de un componente haciendo usos de cosas simples 
 component = `new Form(new FormBuilder())`, 
 aquí ya se empieza a ver los `spyOn()` para espiar algunos métodos de algunos servicios y hacer a las pruebas en relación con los resultados de estos métodos.
 <br/><br/>
-* **Intermedias 2** -
+
+* **Intermedias 2** 
   <br/><br/>
 Esta sección se enfoca en las pruebas de integración:
   <br/>
