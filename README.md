@@ -80,14 +80,12 @@ necesarias en una prueba de integración.
 6. Subject
 7. Gets
 
-En estas pruebas haremos comprobaciones de los params del **ActivatedRoute**, y comprobaremos la navegación del **
-Router**,
+En estas pruebas haremos comprobaciones de los params del **ActivatedRoute**, y comprobaremos la navegación del **Router**,
 con **toHaveBeenCalledWith** Verificando que se llame con los parámetros indicados para la ruta ruta en cuestion
 <br/><br/> Ej. medico/123
 `navigate(['medico', '123'])`
 <br/><br/>
-También hay comprobaciones de directivas `debugElement.queryAll(By.directive(RouterLinkWithHref))` para encontrar todos
-los links y comprobar la ruta de uno de ellos, todo esto son proveas ya de integración.
+Uso de `debugElement.queryAll(By.directive(RouterLinkWithHref))` para encontrar todos los links y comprobar la ruta de uno de ellos, todo esto son proveas ya de integración.
 <br/><br/>
 
 ## Running unit tests
