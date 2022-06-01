@@ -1,4 +1,4 @@
-# Proyecto (Pruebas de integración y Unitarias (Unit testing) en Angular)
+# Proyecto (Pruebas Unitarias y de integración (Unit testing) en Angular)
 
 Angular 13
 
