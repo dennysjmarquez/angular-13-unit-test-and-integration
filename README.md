@@ -3,7 +3,7 @@
 Angular 13
 
 **Puede ver una demo aquí:**
-[https://replit.com/@dennysjmarquez/angular-13-unit-test-and-integration-demo](https://codesandbox.io/p/github/dennysjmarquez/angular-13-unit-test-and-integration)
+[https://codesandbox.io/p/github/dennysjmarquez/angular-13-unit-test-and-integration](https://codesandbox.io/p/github/dennysjmarquez/angular-13-unit-test-and-integration)
 
 ### Las pruebas están separadas en 4 categorías:
 
